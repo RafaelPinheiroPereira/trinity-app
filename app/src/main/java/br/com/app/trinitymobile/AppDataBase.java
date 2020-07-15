@@ -63,7 +63,7 @@ public abstract class AppDataBase extends RoomDatabase {
                 if (mAppDataBaseInstance == null) {
                     mAppDataBaseInstance =
                             Room.databaseBuilder(
-                                    context.getApplicationContext(), AppDataBase.class, "rm_alimentos_database")
+                                    context.getApplicationContext(), AppDataBase.class, "trinity_mobile_database")
                                     .fallbackToDestructiveMigration()
                                     .allowMainThreadQueries()
                                     .build();
