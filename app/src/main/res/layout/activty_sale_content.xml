@@ -20,7 +20,7 @@
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimaryDark"
             app:layout_scrollFlags="scroll|enterAlways"
-            app:title="Trinity Mobile - Minas Frango"
+            app:title="Trinity Mobile"
             app:subtitle="Vendas"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
     </com.google.android.material.appbar.AppBarLayout>
@@ -238,7 +238,7 @@
                         android:layout_width="189dp"
                         style="@style/TextInputLayout"
                         android:layout_height="wrap_content">
-                        <br.com.app.rmalimentos.utils.CurrencyEditText
+                        <br.com.app.trinitymobile.utils.CurrencyEditText
 
                             android:id="@+id/cet_price"
                             android:layout_width="match_parent"
@@ -258,7 +258,7 @@
                             android:textColor="@android:color/primary_text_light"
                             app:showSymbol="false">
 
-                        </br.com.app.rmalimentos.utils.CurrencyEditText>
+                        </br.com.app.trinitymobile.utils.CurrencyEditText>
 
 
                     </com.google.android.material.textfield.TextInputLayout>

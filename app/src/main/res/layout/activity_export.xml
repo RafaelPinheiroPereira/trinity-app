@@ -18,7 +18,7 @@
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimaryDark"
             app:layout_scrollFlags="scroll|enterAlways"
-            app:title="Trinity Mobile - R&amp;M Alimentos"
+            app:title="Trinity Mobile"
             app:subtitle="Exportação Vendas"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
     </com.google.android.material.appbar.AppBarLayout>
